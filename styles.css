@@ -3,11 +3,13 @@
 body{
     background-color: #333333;
     color: whitesmoke;
+    margin: 0;
 
 }
 
 html{
     font-family: 'Fira Sans', sans-serif;
+    
 }
 
 h2{
@@ -71,6 +73,7 @@ h2{
     
 }
 .barra {
+    margin: 0;
     display: flex;
     height: 50px;
     width: 100%;
@@ -80,10 +83,18 @@ h2{
     background-color: teal;
     
 }
+.vin{
+    margin: 30px, 100px;
+    padding: 10px 20px;
+}
 
 a{
     color: whitesmoke;
     text-decoration: none;
+}
+
+.foot{
+    background-color: teal;
 }
 
 .btn{
@@ -190,4 +201,63 @@ a{
     border-radius: 20px;
     background: red;
     border-radius: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 25rem;
+    margin: auto;
+    padding: 3rem;
+}
+
+.ico{
+    height: 15px;
+    width: 15px;
+}
+
+#ContactMe{
+    background-color: teal;
+    color: whitesmoke;
+    align-items: center;
+    height: 550px;
+    margin:20px;
+    padding: 20px;
+}
+
+.tex{
+    height: 3rem;
+    width: 90%;
+    margin: 5px auto 15px;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+    
+    
+}
+
+.form textarea{
+    height: 100px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.form button{
+    height: 3rem;
+    width: 50%;
+    margin: 5px auto 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: white;
+    background-color: green;
+    font-size: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+    
+    
+}
+.form button:hover{
+    background-color: darkgreen;
+    cursor: pointer;
 }

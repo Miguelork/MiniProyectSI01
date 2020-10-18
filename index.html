@@ -12,19 +12,19 @@
     <nav>
         <div class="barra">
             <div class="btn">
-                <a href="#">Principal</a>
+                <a href="#hero">Principal</a>
             </div>
             <div class="btn">
-                <a href="#">Experiencia</a>
+                <a href="#experience">Experiencia</a>
             </div>
             <div class="btn">
-                <a href="#">Habilidades</a>
+                <a href="#skills">Habilidades</a>
             </div>
             <div class="btn">
-                <a href="#">Acerca de mi</a>
+                <a href="#aboutMe">Acerca de mi</a>
             </div>
             <div class="btn">
-                <a href="#">Contactame</a>
+                <a href="#contactMe">Contactame</a>
             </div>
         </div>
     </nav>
@@ -41,6 +41,7 @@
 
         </div>
 
+        <div id="experience">
         <h2 class="center">Mi Experiencia</h2>
 
         <div class="flex">
@@ -93,8 +94,9 @@
                 <p>Realizado: En proceso</p>
             </div>
         </div>
-        <div class="about-content">
-            <div id=aboutMe>
+    </div>
+        <div id=aboutMe class="about-content">
+            <div >
                 <h2>Sobre mi</h2>
                 <div class="info">
                     <p> Mi nombre es Miguelangel Somana Parra, soy un estudiante de ingenieria de sistemas,
@@ -109,50 +111,78 @@
                         respuesta.
                     </p>
                 </div>
-            <div>
-                <img id="perfil" src="/Miguelangel.jpg" alt="">
-            </div>
+                <div>
+                    <img id="perfil" src="/Miguelangel.jpg" alt="">
+                </div>
 
             </div>
         </div>
     </div>
     <div>
-        <section id=Skills>
-                <h2 class="">Habilidades</h2>
-                <h3>HTML 90%</h3>
-                <div class="bar">
-                    <div id="bar1"></div>
-                </div>
-                
-                <h3>CSS 30%</h3>
-                <div class="bar">
-                    <div id="bar2"></div>
-                </div>
+        <section id=skills>
+            <h2 class="">Habilidades</h2>
+            <h3>HTML 90%</h3>
+            <div class="bar">
+                <div id="bar1"></div>
+            </div>
 
-                <h3>Bootstrap 99%</h3>
-                <div class="bar">
-                    <div id="bar3"></div>
-                </div>
-        
-                <h3>JavaScript 75%</h3>
-                <div class="bar">
-                    <div id="bar4"></div>
-                </div>
-        
-                <h3>Java 60%</h3>
-                <div class="bar">
-                    <div id="bar5"></div>
-                </div>
-        
-                <h3>Assembler 10%</h3>
-                <div class="bar">
-                    <div id="bar6"></div>
-                </div>
+            <h3>CSS 30%</h3>
+            <div class="bar">
+                <div id="bar2"></div>
+            </div>
+
+            <h3>Bootstrap 99%</h3>
+            <div class="bar">
+                <div id="bar3"></div>
+            </div>
+
+            <h3>JavaScript 75%</h3>
+            <div class="bar">
+                <div id="bar4"></div>
+            </div>
+
+            <h3>Java 60%</h3>
+            <div class="bar">
+                <div id="bar5"></div>
+            </div>
+
+            <h3>Assembler 10%</h3>
+            <div class="bar">
+                <div id="bar6"></div>
+            </div>
         </section>
 
     </div>
-    
-    
+
+
 </body>
+
+<section id="contactMe">
+    <h2>Contactame</h2>
+
+    <div class="form">
+        <input type="text" class="tex" id="nombre" placeholder="Nombre y Apellido">
+        <input type="text" class="tex" id="celular" placeholder="+584129216461">
+        <input type="email" class="tex" id="email" placeholder="ejemplo@gmail.com">
+        <textarea name="msg" class="tex" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+        <button class="center" id="enviar"><b>Enviar</b></button>
+    </div>
+
+    <div class="flex foot">
+        <div class="vin">
+            <a href="https://www.instagram.com/miguelork/"><img class="ico" src="instagram.png" alt="">@miguelork</a>
+        </div>
+        <div class="vin">
+            <a href="https://wa.me/584129216461/"><img class="ico" src="whatsapp.png" alt="">+584129216461</a>
+        </div>
+        <div class="vin">
+            <a href="https://www.facebook.com/miguelangel.somanaparra"><img class="ico" src="facebook.png"
+                    alt="">Miguelangel Somana</a>
+        </div>
+
+
+</section>
+</body>
+<script src="main.js"></script>
 
 </html>
