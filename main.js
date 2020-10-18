@@ -17,3 +17,22 @@ document.getElementById("enviar").onclick = function(){
         alert("Por favor rellene todos los cambios")
     }
 }
+
+    var skill=[
+        {"nombre":"HTML","nivel":"90%"},
+        {"nombre":"CSS","nivel":"30%"},
+        {"nombre":"Bootstrap","nivel":"99%"},
+        {"nombre":"JavaScript", "nivel":"70%"},
+        {"nombre":"Java", "nivel":"60%"},
+        {"nombre":"Assembler", "nivel":"10%"}
+    ];
+
+    window.addEventListener("load",function(e){
+        document.getElementById("bar1").style.width =skill[0].nivel;
+        document.getElementById("bar2").style.width =skill[1].nivel;
+        document.getElementById("bar3").style.width =skill[2].nivel;
+        document.getElementById("bar4").style.width =skill[3].nivel;
+        document.getElementById("bar5").style.width =skill[4].nivel;
+        document.getElementById("bar6").style.width =skill[5].nivel;
+    });
+

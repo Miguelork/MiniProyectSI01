@@ -161,42 +161,36 @@ a{
 }
 
 #bar1{
-    width: 90%;
     height: 20px;
     border-radius: 20px;
     background: green;
     border-radius: 20px;
 }
 #bar2{
-    width: 30%;
     height: 20px;
     border-radius: 20px;
     background: red;
     border-radius: 20px;
 }
 #bar3{
-    width: 99%;
     height: 20px;
     border-radius: 20px;
     background: green;
     border-radius: 20px;
 }
 #bar4{
-    width: 70%;
     height: 20px;
     border-radius: 20px;
     background: green;
     border-radius: 20px;
 }
 #bar5{
-    width: 60%;
     height: 20px;
     border-radius: 20px;
     background:yellow;
     border-radius: 20px;
 }
 #bar6{
-    width: 10%;
     height: 20px;
     border-radius: 20px;
     background: red;
