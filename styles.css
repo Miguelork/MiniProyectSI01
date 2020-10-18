@@ -60,3 +60,25 @@ body{
     }
     
 }
+.barra {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: teal;
+    
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.btn{
+    margin: 30px, 100px;
+    padding: 10px 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
