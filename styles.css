@@ -20,6 +20,14 @@ h2{
     text-align: center;
 }
 
+h3{
+    color: whitesmoke;
+    margin: 20px;
+    padding: 10px;
+    font-size: 150%;
+    text-align: left;
+}
+
 .hero{
     position: relative;
     width: 100%;
@@ -125,7 +133,6 @@ a{
     text-align: center;
 }
 
-
 .flex {
     display: flex;
     width: 100%;
@@ -138,7 +145,7 @@ a{
     background-color: teal;
     color: whitesmoke;
     align-items: center;
-    height: 400px;
+    height: 450px;
     margin:20px;
     padding: 20px;
 }
@@ -146,11 +153,11 @@ a{
     text-align: center;
 }
 #perfil{
-    height: 10rem;
-    width: 8rem;
+    height: 224px;
+    width: 224px;
     display: block;
     margin: 0 auto;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 .bar{
     height: 20px;
@@ -158,6 +165,7 @@ a{
     background: whitesmoke;
     border-radius: 20px;
     border: 3px solid whitesmoke;
+    margin: 0px 30px;
 }
 
 #bar1{
